@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap">
+    <script type="text/javascript" src="JS/script.js"></script>
+    <title>Darshi's Foods</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9BPSB5');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9BPSB5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header>
+        <nav>
+            <div class="row">
+                <img src="./Images/logo-white-Darshi.png" alt="Darshifood logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#" onclick=showlogin()>Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="login-form" id="login-form">
+            <label for="fname" style="color: blanchedalmond;">User Name :</label>
+            <input type="text" id="Uname" placeholder="User Name" name="Uname"><br><br>
+            <label for="lname" style="color: blanchedalmond;">&nbsp;&nbsp;&nbsp;&nbsp;Password :</label>
+            <input type="password" id="password" placeholder="Password" name="password"><br><br>
+            <input type="submit" class="btn-submit" value="Submit" onclick=login(Uname)>
+        </div>
+        <div class="hero-text-box">
+            <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
+            <a class="btn btn-full" href="#" onclick="alert('Go and Drink Water fool')">I'm hungry</a>
+            <a class="btn btn-ghost" href="#" onclick="alert('I don\'t show you')">Show me more</a>
+            <select name="cars" id="cars" style="display:none">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+        </div>
+    </header>
+</body>
+
+</html>

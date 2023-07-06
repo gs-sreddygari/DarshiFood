@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap">
+ <script type="text/javascript" src="JS\script.js"></script>
+    <title>Darshi's Food</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9BPSB5');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body style="padding:20px" onload="setGlobalContext();">  <!--clearArticlesSearch(),  onload="reIdentifyuser();"-->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9BPSB5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div>
+<div style="padding:20px">
+    <h1 style="color:#8eb3ca">This is a Sample Page</h1>
+    <h3>Meeting Details</h3>
+   <label>Attendees:</label><br>
+  <input type="number" min="1" max="5" style="width:200px" id="attendees" name="Attendees"><br><br>
+  <label>Recording :</label><br>
+  <select name="Recording" id="recording" style="width:200px">
+    <option value="true">True</option>
+    <option value="false">False</option>
+  </select>
+  <br><br>
+    <button class="myButton" onclick="CEtrigger(document.getElementById('attendees').value, document.getElementById('recording').value)">Save Meeting Details</button>
+
+</div>
+</div>
+<div class="dropdown"  style="padding:20px">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()" style="width:100%">
+    <a href="#about">About</a>
+    <a href="#base">Base</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#custom">Custom</a>
+    <a href="#support">Support</a>
+    <a href="#tools">Tools</a>
+  </div>
+</div>
+<div>
+    <button id="testingbuttonid" name="testingbuttonname" title="Explore button training" style="cursor: pointer;">
+                          <span id="testingspanid" name="testingspanname" title="Explore training1" style="padding: 0 1em 0 2.1em;margin: 50px 50px 50px 50px;">Explore training</span>
+                        </button>
+
+    <button type="button" role="button" class="std-button primary with-icon" style="cursor: pointer;"><span class="std-icon std-icon-edit"></span><span style="padding: 0 1em 0 2.1em;margin: 50px 50px 50px 50px;" class="std-button-text">Tax payments made</span></button>
+</div>
+</body>
+</html>
