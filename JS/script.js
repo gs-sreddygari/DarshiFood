@@ -183,5 +183,6 @@ function filterFunction() {
 function selectMySelect() {
   var mySelect = document.getElementById("recording");
   var selectedValue = mySelect.value;
+if (selectedValue !="")
   alert("The selected value is: " + selectedValue);
 }
