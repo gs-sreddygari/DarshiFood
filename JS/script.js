@@ -179,3 +179,9 @@ function filterFunction() {
     }
   }
 }
+
+function selectMySelect() {
+  var mySelect = document.getElementById("mySelect");
+  var selectedValue = mySelect.value;
+  alert("The selected value is: " + selectedValue);
+}
