@@ -181,7 +181,7 @@ function filterFunction() {
 }
 
 function selectMySelect() {
-  var mySelect = document.getElementById("mySelect");
+  var mySelect = document.getElementById("recording");
   var selectedValue = mySelect.value;
   alert("The selected value is: " + selectedValue);
 }
