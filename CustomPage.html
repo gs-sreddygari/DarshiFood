@@ -52,10 +52,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <label>Attendees:</label><br>
   <input type="number" min="1" max="5" style="width:200px" id="attendees" name="Attendees"><br><br>
   <label>Recording :</label><br>
-  <select name="Recording" id="recording" style="width:200px" onclick="selectMySelect()">
+  <select name="Recording" id="recording" style="width:200px" >
       <option value="">Please choose an option</option>
-    <option value="true">True</option>
-    <option value="false">False</option>
+    <option onclick="selectMySelect()" value="true">True</option>
+    <option onclick="selectMySelect()" value="false">False</option>
   </select>
   <br><br>
     <button class="myButton" onclick="CEtrigger(document.getElementById('attendees').value, document.getElementById('recording').value)">Save Meeting Details</button>
