@@ -54,7 +54,7 @@ function reIdentifyuser(){
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-POK8MKKQ63Z3-2", {"engagementChecksumFileUrl": "https://github.com/gs-sreddygari/DarshiFood/blob/main/JS/Engagement_checksum.json"});
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-POK8MKKQ63Z3-2", {"engagementChecksumFileUrl": "JS/Engagement_checksum.json"});
 
   //,{"engagementChecksumFileUrl": "http://px-support.epizy.com/JS/Engagement_checksum.json"}
 
