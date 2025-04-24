@@ -46,7 +46,8 @@ function reIdentifyuser(){
 })(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-POK8MKKQ63Z3-2",{
     "htmlSanitization": true,
     "htmlSanitizationAllowedDomains": ["http://px-support.epizy.com"],
-    "engagementChecksumFileUrl": "http://px-support.epizy.com/JS/checksum.json"
+    "engagementChecksumFileUrl": "http://px-support.epizy.com/JS/checksum.json",
+"localStorageCookie" : true
 });*/
 
 //This is the original and Final
