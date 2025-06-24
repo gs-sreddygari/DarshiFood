@@ -55,7 +55,7 @@ function reIdentifyuser(){
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-POK8MKKQ63Z3-2",{"allowBlankSrc": true, "engagementChecksumFileUrl": "./JS/Engagement_checksum.json" });
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-POK8MKKQ63Z3-2",{"allowBlankSrc": true, "engagementChecksumFileUrl": "./JS/Engagement_checksum.json", "skipChecksumForEngagementIds": ["9b5420fd-569f-4457-b156-1cd7d4b096a0"] });
 
   //,{"engagementChecksumFileUrl": "./JS/Engagement_checksum.json"}
 
